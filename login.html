@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dragon Ball</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Import page css styles -->
+    <link rel="stylesheet" href="./css/form.css">
+    <script>
+        function login() {
+            // 获取用户输入的用户名和密码
+            var username = document.querySelector('input[type="text"]').value;
+            var password = document.querySelector('input[type="password"]').value;
+
+            // 检查用户名和密码是否为空
+            if (username === "" || password === "") {
+                // 如果为空，显示登录失败的消息
+                alert("登录失败：用户名或密码不能为空。");
+                return;
+            }
+
+            // 这里应该添加实际的登录逻辑，比如发送请求到服务器验证用户信息
+            // 为了演示，我们假设登录总是成功的
+
+            // 显示登录成功的消息
+            alert("登录成功，欢迎回来。");
+
+            // 跳转到主页
+            window.location.href = './index.html';
+        }
+    </script>
+</head>
+
+<body>
+    <div id="form">
+        <form onsubmit="event.preventDefault(); login();">
+            <div class="form_logo">
+                <img src="./images/logo.png" alt="">
+            </div>
+            <h3>Welcome to Login</h3>
+            <div class="form_input">
+                <input type="text" placeholder="Please enter your username" required>
+            </div>
+            <div class="form_input">
+                <input type="password" placeholder="Please enter your password" required>
+            </div>
+            <div class="form_more">
+                <a href="./register.html">Don't have an account? Click to register</a>
+                <br><br>
+                <a href="./index.html" class="register_button">Register Now</a>
+            </div>
+            <div class="form_bottom">
+                <button type="submit">Login</button>
+            </div>
+        </form>
+    </div>
+    <script>
+        document.querySelector(".register_button").onclick = function () {
+            window.location.href = "./index.html";
+        }
+    </script>
+</body>
+
+</html>

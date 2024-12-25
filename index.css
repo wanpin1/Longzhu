@@ -1,0 +1,228 @@
+#index_about {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 60px 0px;
+    margin-bottom: 60px;
+}
+
+#index_about p {
+    width: 600px;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 28px;
+}
+
+#index_about a {
+    display: inline-block;
+    width: 130px;
+    background-color: #FF9D01;
+    color: #fff;
+    text-align: center;
+    line-height: 26px;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 40px;
+}
+
+.index_about_img {
+    width: 400px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+#index_role {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#index_role ul {
+    font-size: 0px;
+    margin-top: 20px;
+}
+
+#index_role ul li {
+    display: inline-block;
+    margin-left: 66px;
+    width: 250px;
+}
+
+#index_role ul li:first-child {
+    margin-left: 0px;
+}
+
+#index_role ul li p:nth-child(2) {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+#index_role ul li p:nth-child(3) {
+    color: #c2c2c4;
+    font-size: 12px;
+    margin-top: 10px;
+    line-height: 26px;
+}
+
+#index_role ul li a {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #FF9D01;
+}
+
+#index_role ul li img {
+    width: 100%;
+    height: 380px;
+}
+
+/* 主要作品 */
+#index_works {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+#index_works ul {
+    font-size: 0px;
+    margin-top: 20px;
+}
+
+#index_works ul li {
+    display: inline-block;
+    margin-left: 66px;
+    width: 250px;
+}
+
+#index_works ul li:first-child {
+    margin-left: 0px;
+}
+
+#index_works ul li p:nth-child(2) {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+#index_works ul li p:nth-child(3) {
+    color: #c2c2c4;
+    font-size: 12px;
+    margin-top: 10px;
+    line-height: 26px;
+}
+
+#index_works ul li p:nth-child(4) {
+    position: relative;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #fff;
+
+}
+
+#index_works ul li p:nth-child(4) span {
+    position: absolute;
+    right: 0px;
+    line-height: 20px;
+    top: 0px;
+}
+
+#index_works ul li p:nth-child(4) span img {
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-left: 5px;
+}
+
+#index_works ul li a {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #FF9D01;
+}
+
+#index_works ul li img {
+    width: 100%;
+    height: 380px;
+}
+
+/* 欢迎来到龙珠 */
+#welcome_longzhu {
+    width: 1200px;
+    margin: 0 auto;
+    margin-left: 20px;
+    padding: 100px 0px;
+}
+
+#welcome_longzhu img {
+    width: 260px;
+    margin-left: 300px;
+}
+
+#welcome_longzhu_left {
+    float: right;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+#welcome_longzhu_left h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#welcome_longzhu_left p {
+    color: #c2c2c4;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+#welcome_longzhu_left input {
+    width: 260px;
+    height: 32px;
+    border: 0px;
+}
+
+#welcome_longzhu_left button {
+    width: 130px;
+    height: 34px;
+    border: 0px;
+    background-color: #FF9D01;
+    color: #fff;
+    border-radius: 4px;
+    margin-left: 50px;
+}
+#user_info {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ae1111;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#user_info p {
+    color: #333333;
+    font-size: 16px;
+    margin: 5px 0;
+}
+#welcome_longzhu_left button {
+    width: 130px;
+    height: 34px;
+    border: 0px;
+    background-color: #FF9D01;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 34px;
+    display: inline-block;
+    text-decoration: none; /* 去除下划线 */
+    margin-left: 50px;
+    cursor: pointer; /* 鼠标悬停时显示手型指针 */
+}

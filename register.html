@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dragon Ball</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/form2.css">
+    <script>
+        function register() {
+            // 这里应该添加实际的注册逻辑，比如发送请求到服务器验证用户信息
+            // 为了演示，我们假设注册总是成功的
+
+            // 显示注册成功的消息
+            alert("注册成功，请登录。");
+
+            // 跳转到登录界面
+            window.location.href = './login.html';
+        }
+    </script>
+</head>
+
+<body>
+    <div id="form">
+        <form onsubmit="event.preventDefault(); register();">
+            <div class="form_logo">
+                <img src="./images/logo.png" alt="">
+            </div>
+            <h3>Welcome to Register</h3>
+            <div class="form_input">
+                <input type="text" placeholder="Enter your nickname" required>
+            </div>
+            <div class="xingbie">
+                <span>Gender:</span>
+                <input type="radio" name="sex" value="Male" required> Male
+                <input type="radio" name="sex" value="Female"> Female
+            </div>
+
+            <div class="form_input">
+                <input type="password" placeholder="Enter your password" required>
+            </div>
+            <div class="form_input">
+                <input type="password" placeholder="Confirm your password" required>
+            </div>
+            <div class="form_input">
+                <input type="email" placeholder="Enter your email" required>
+            </div>
+            <div class="xingbie">
+                <span>Favorite Race:</span>
+                <input type="checkbox" name="zhongzu" value="Frieza's Race"> Frieza's Race
+                <input type="checkbox" name="zhongzu" value="Saiyans"> Saiyans
+                <input type="checkbox" name="zhongzu" value="Earthlings"> Earthlings
+                <input type="checkbox" name="zhongzu" value="Cerezians"> Cerezians
+                <input type="checkbox" name="zhongzu" value="Zolfians"> Zolfians
+            </div>
+            <div class="xingbie">
+                <span>Favorite Character:</span>
+                <select name="" id="" required>
+                    <option value="">Please select</option>
+                    <option value="Son Goku">Son Goku</option>
+                    <option value="Vegeta">Vegeta</option>
+                    <option value="Trunks">Trunks</option>
+                    <option value="Gohan">Gohan</option>
+                    <option value="Goten">Goten</option>
+                    <option value="Krillin">Krillin</option>
+                    <option value="Piccolo">Piccolo</option>
+                    <option value="Bulma">Bulma</option>
+                </select>
+            </div>
+
+            <div class="form_more">
+                <a href="./login.html">Already have an account? Click to log in</a>
+            </div>
+            <div class="form_bottom">
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

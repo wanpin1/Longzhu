@@ -1,0 +1,125 @@
+html {
+    height: 100vh;
+    background: url(../images/banner6.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    overflow: hidden;
+}
+
+#form {
+    position: fixed;
+    display: inline-block;
+    width: 400px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    margin-top: -271px;
+    margin-left: -200px;
+    padding-bottom: 40px;
+}
+
+.form_logo {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: -26px;
+}
+
+.form_logo img {
+    width: 160px;
+}
+
+h3 {
+    color: #FF9D01;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.form_input {
+    text-align: center;
+    width: 260px;
+    height: 36px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.form_input input {
+    border: 0px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0px 10px;
+}
+
+.form_input input::placeholder {
+    font-size: 14px;
+    color: #FF9D01;
+}
+
+
+.form_more {
+    width: 260px;
+    margin: 0 auto;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.form_more a {
+    font-size: 12px;
+    color: #FF9D01;
+}
+
+
+
+.foorm_bottom {
+    text-align: center;
+    height: 36px;
+    line-height: 36px;
+    width: 260px;
+    border: 0px;
+    background-color: #FF9D01;
+    color: #fff;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+.xingbie {
+    width: 260px;
+    margin: 20px auto;
+    color: #fff;
+}
+
+.xingbie input {
+    margin-right: 5px;
+}
+
+.xingbie span {
+    color: #FF9D01;
+}
+.form_bottom {
+    text-align: center;
+    margin-top: 20px; /* 可以根据需要调整上边距 */
+}
+
+.form_bottom button {
+    width: 260px; /* 按钮宽度 */
+    height: 36px; /* 按钮高度 */
+    background-color: #FF9D01; /* 按钮背景颜色 */
+    color: #fff; /* 按钮文字颜色 */
+    font-size: 14px; /* 按钮文字大小 */
+    border: none; /* 无边框 */
+    border-radius: 4px; /* 圆角边框 */
+    cursor: pointer; /* 鼠标悬停时显示手型指针 */
+    outline: none; /* 点击时无轮廓 */
+    transition: background-color 0.3s; /* 背景色变化过渡效果 */
+}
+
+.form_bottom button:hover {
+    background-color: #e68a00; /* 鼠标悬停时的按钮背景颜色 */
+}

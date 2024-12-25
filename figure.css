@@ -1,0 +1,52 @@
+header {
+    background: url(../images/banner5.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.figure_heard {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.514);
+}
+
+main {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+main ul {
+    font-size: 0px;
+}
+
+main ul li {
+    display: inline-block;
+    width: 230px;
+    margin-left: 12px;
+    margin-bottom: 30px;
+}
+
+main ul li:nth-child(5n-4) {
+    margin-left: 0px;
+}
+
+main ul li div img {
+    width: 100%;
+    height: 230px;
+}
+
+main ul li p {
+    padding: 5px;
+    position: relative;
+    color: #FF9D01;
+    font-size: 16px;
+}
+
+main ul li p span {
+    position: absolute;
+    right: 5px;
+    color: #fff;
+    font-size: 14px;
+}

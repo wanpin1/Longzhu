@@ -1,0 +1,61 @@
+main {
+    color: #fff;
+    padding-top: 120px;
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.people_title {
+    margin-bottom: 60px;
+}
+
+.people_title>div {
+    display: inline-block;
+    width: 600px;
+}
+
+.people_title_left {
+    text-align: right;
+    box-sizing: border-box;
+    padding-right: 80px;
+    float: left;
+}
+
+.people_title_left img {
+    width: 200px;
+    position: relative;
+    top: 53px;
+}
+
+.people_title_right {
+    line-height: 60px;
+}
+
+.people_title_right span {
+    color: #FF9D01;
+}
+
+h2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.image_list {
+    font-size: 0px;
+}
+
+.image_list img {
+    width: 290px;
+    height: 173px;
+    margin-left: 13Px;
+}
+
+.image_list img:nth-child(1) {
+    margin-left: 0px;
+}
+
+.image_2 p {
+    line-height: 28px;
+    margin-top: 10px;
+}

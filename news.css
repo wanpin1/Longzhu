@@ -1,0 +1,126 @@
+h1 {
+    margin-top: 60px;
+}
+
+#header_top {
+    background: none;
+    background-color: #81D4FF;
+}
+
+#news_heard {
+    overflow: hidden;
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+#news_heard img {
+    position: relative;
+    width: 900px;
+    left: 200px;
+}
+
+#news_heard p {
+    position: absolute;
+    right: 260px;
+    line-height: 600px;
+    top: 0px;
+    color: #fff;
+    font-size: 30px;
+}
+
+#news_heard p span {
+    font-size: 24px;
+}
+
+main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+main ul {
+    text-align: center;
+}
+
+main ul li {
+    position: relative;
+    display: inline-block;
+    width: 500px;
+    height: 270px;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 30px 30px;
+}
+
+main ul li a {
+    position: relative;
+    top: 150px;
+    height: 100px;
+    overflow: hidden;
+    display: block;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.281);
+    text-decoration: none;
+    color: #fff;
+    text-align: left;
+}
+
+main ul li a p:first-child {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+main ul li a p:last-child {
+    font-size: 14px;
+    margin-top: 10px;
+
+}
+
+main ul li:nth-child(2) {
+    background: url(../images/news1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main ul li:nth-child(3) {
+    background: url(../images/news2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main ul li:nth-child(4) {
+    background: url(../images/news3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main ul li:nth-child(5) {
+    background: url(../images/news4.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main ul li:nth-child(6) {
+    background: url(../images/news5.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main ul li:nth-child(7) {
+    background: url(../images/news6.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main ul li:nth-child(8) {
+    background: url(../images/news7.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main ul li:nth-child(9) {
+    background: url(../images/news8.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
